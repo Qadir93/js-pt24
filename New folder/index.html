@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JavaScript part 24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JavaScript part 24</h1>
+
+    <section>
+        <h2>1. Greet User</h2>
+        <label>First Name:</label><input id="firstName" type="text" /><br />
+        <label>Last Name:</label><input id="lastName" type="text" /><br />
+        <button onclick="greetUser()">Greet</button>
+    </section>
+
+    <section>
+        <h2>2. Add Two Numbers</h2>
+        <label>Number 1:</label><input id="addNum1" type="number" /><br />
+        <label>Number 2:</label><input id="addNum2" type="number" /><br />
+        <button onclick="addTwoNumbers()">Add</button>
+    </section>
+
+    <section>
+        <h2>3. Calculator</h2>
+        <label>Number 1:</label><input id="calcNum1" type="number" /><br />
+        <label>Number 2:</label><input id="calcNum2" type="number" /><br />
+        <label>Operator (+, -, *, /):</label><input id="calcOperator" maxlength="1" /><br />
+        <button onclick="calculate()">Calculate</button>
+    </section>
+
+    <section>
+        <h2>4. Square a Number</h2>
+        <label>Number:</label><input id="squareNum" type="number" /><br />
+        <button onclick="showSquare()">Square</button>
+    </section>
+
+    <section>
+        <h2>5. Factorial</h2>
+        <label>Number:</label><input id="factorialNum" type="number" min="0" /><br />
+        <button onclick="showFactorial()">Calculate Factorial</button>
+    </section>
+
+    <section>
+        <h2>6. Display Counting</h2>
+        <label>Start:</label><input id="countStart" type="number" /><br />
+        <label>End:</label><input id="countEnd" type="number" /><br />
+        <button onclick="displayCounting()">Display Counting</button><br />
+        <div id="countOutput" style="margin-top:10px; white-space: pre-wrap; border: 1px solid #ccc; padding:10px;">
+        </div>
+    </section>
+
+    <section>
+        <h2>7. Calculate Hypotenuse</h2>
+        <label>Base:</label><input id="hypBase" type="number" /><br />
+        <label>Perpendicular:</label><input id="hypPerpendicular" type="number" /><br />
+        <button onclick="showHypotenuse()">Calculate Hypotenuse</button>
+    </section>
+
+    <section>
+        <h2>8. Area of Rectangle</h2>
+        <label>Width:</label><input id="rectWidth" type="number" /><br />
+        <label>Height:</label><input id="rectHeight" type="number" /><br />
+        <button onclick="showRectangleArea()">Calculate Area</button>
+    </section>
+
+    <section>
+        <h2>9. Palindrome Check</h2>
+        <label>String:</label><input id="palindromeStr" type="text" /><br />
+        <button onclick="checkPalindrome()">Check Palindrome</button>
+    </section>
+
+    <section>
+        <h2>10. Title Case Conversion</h2>
+        <label>String:</label><input id="titleStr" type="text" /><br />
+        <button onclick="convertTitleCase()">Convert to Title Case</button>
+    </section>
+
+    <section>
+        <h2>11. Find Longest Word</h2>
+        <label>String:</label><input id="longestStr" type="text" /><br />
+        <button onclick="findLongest()">Find Longest Word</button>
+    </section>
+
+    <section>
+        <h2>12. Circle Properties</h2>
+        <label>Radius:</label><input id="circleRadius" type="number" /><br />
+        <button onclick="calcCircle()">Calculate Circumference & Area</button>
+        <div id="circleOutput" style="margin-top:10px;"></div>
+    </section>
+
+</body>
+ <script src="app.js"></script>
+</html>
